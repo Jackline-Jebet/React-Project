@@ -8,8 +8,8 @@ function Home() {
     <div className='home' style={{BackgroundImage: `url(${BannerImage})`}}>
     <div className='headerContainer'>
       
-    <h1>Pedro's Pizzeria</h1>
-    <p> PIZZA TO FIT ANY TASTE </p>
+    <h1>Welcome to Our Hospital</h1>
+    <p>We provide high-quality medical care for our community.</p>
     <Link to='/menu'>
     <button>ORDER NOW</button>
     </Link>
@@ -18,4 +18,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home;

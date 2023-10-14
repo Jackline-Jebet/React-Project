@@ -5,7 +5,14 @@ import PizzaLeft from '../Assets/pizzaLeft.jpg'
 function Contact() {
   return (
     <div className='contact'>
-      <div className='leftSide' style={{backgroundImage: `url(${PizzaLeft})`}}></div>
+      <h3>Contact Us</h3>
+      <div className='leftSide' style={{backgroundImage: `url(${PizzaLeft})`}}>
+        <div contact-left>
+        <p>Email: info@hospital.com</p>
+        <p>Phone: +1-123-456-7890</p>
+        </div>
+
+      </div>
       <div className='rightSide'>
      <form>
       <label htmlFor='name'>Full Name</label>

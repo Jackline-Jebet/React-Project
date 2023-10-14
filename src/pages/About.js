@@ -10,7 +10,8 @@ function About() {
       </div>
       <div className='aboutBottom'>
      <h1>ABOUT US</h1>;
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+     <p>Our hospital has been serving the community for over 50 years...
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   Praesent vel sapien non tellus congue fermentum at a nulla.
   Aliquam erat volutpat. Sed at elit in ex pharetra interdum.
   Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
@@ -22,4 +23,4 @@ function About() {
   )
 }
 
-export default About
+export default About;
